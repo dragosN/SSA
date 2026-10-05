@@ -1,0 +1,8 @@
+/* Global resets live in the MUI CssBaseline theme. */
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,8 @@
+# Phase 2+ will wire `web` and `conjunction` services.
+# Until then run the dashboard with: cd apps/web && npm run dev
+
+services:
+  placeholder:
+    image: alpine:3.20
+    profiles: ["full-stack"]
+    command: ["true"]
